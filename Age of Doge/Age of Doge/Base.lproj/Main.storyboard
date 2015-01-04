@@ -38,6 +38,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="convertToDogAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tl0-qA-1AC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYP-xR-NNx">
                                 <rect key="frame" x="16" y="261" width="194" height="87"/>
@@ -46,12 +49,10 @@
                                     <color key="titleColor" red="1" green="0.97189387189999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeDogesWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qKp-Ig-EZl"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XKO-wE-HDN">
-                                <rect key="frame" x="16" y="49" width="194" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dog Years" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKN-0u-Kdc">
                                 <rect key="frame" x="271" y="43" width="83" height="42"/>
                                 <color key="backgroundColor" red="0.99045853210230073" green="0.96546263125148379" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -59,16 +60,26 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONVERT HUMAN TO DOG YEARS OR LISTEN TO CHAIRMAN DOGE'S WORDS, WOOF!" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fZ-dw-o1h">
-                                <rect key="frame" x="16" y="458" width="194" height="142"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONVERT HUMAN TO DOG YEARS OR LISTEN TO CHAIRMAN DOGE'S CLEVER WORDS, WOOF!" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fZ-dw-o1h">
+                                <rect key="frame" x="0.0" y="458" width="231" height="142"/>
                                 <color key="backgroundColor" red="0.99045853210000001" green="0.96546263129999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="0.006476673114" blue="0.14724792389999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="put human age here, woof! " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XKO-wE-HDN">
+                                <rect key="frame" x="16" y="49" width="247" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="comradeDogeWords" destination="6fZ-dw-o1h" id="AJx-HL-Kmn"/>
+                        <outlet property="dogYearsOutput" destination="CKN-0u-Kdc" id="u1s-Ue-ox7"/>
+                        <outlet property="humanAgeInput" destination="XKO-wE-HDN" id="y03-tW-BTm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
