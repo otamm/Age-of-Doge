@@ -17,13 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="putindoge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fv6-sS-XkF">
-                                <rect key="frame" x="0.0" y="0.0" width="719" height="600"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cosmodoge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R7r-yI-JLl">
-                                <rect key="frame" x="400" y="0.0" width="200" height="245"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stalindoge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="G4C-ns-otn">
-                                <rect key="frame" x="259" y="349" width="341" height="251"/>
+                                <rect key="frame" x="253" y="341" width="341" height="251"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3f-6q-gvV">
                                 <rect key="frame" x="16" y="87" width="158" height="48"/>
@@ -43,16 +40,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYP-xR-NNx">
-                                <rect key="frame" x="16" y="261" width="194" height="87"/>
+                                <rect key="frame" x="8" y="310" width="231" height="62"/>
                                 <color key="backgroundColor" red="1" green="0.006476673113582132" blue="0.14724792392111485" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                                <state key="normal" title="Comrade Doge, tell me your wisdom.">
                                     <color key="titleColor" red="1" green="0.97189387189999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="changeDogesWords:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qKp-Ig-EZl"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="put human age here, woof! " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XKO-wE-HDN">
+                                <rect key="frame" x="16" y="49" width="247" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dog Years" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKN-0u-Kdc">
                                 <rect key="frame" x="271" y="43" width="83" height="42"/>
                                 <color key="backgroundColor" red="0.99045853210230073" green="0.96546263125148379" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -61,17 +63,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONVERT HUMAN TO DOG YEARS OR LISTEN TO CHAIRMAN DOGE'S CLEVER WORDS, WOOF!" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fZ-dw-o1h">
-                                <rect key="frame" x="0.0" y="458" width="231" height="142"/>
+                                <rect key="frame" x="8" y="445" width="231" height="142"/>
                                 <color key="backgroundColor" red="0.99045853210000001" green="0.96546263129999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="1" green="0.006476673114" blue="0.14724792389999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="put human age here, woof! " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XKO-wE-HDN">
-                                <rect key="frame" x="16" y="49" width="247" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cosmodoge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R7r-yI-JLl">
+                                <rect key="frame" x="389" y="20" width="200" height="216"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -83,6 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="296"/>
         </scene>
     </scenes>
     <resources>
