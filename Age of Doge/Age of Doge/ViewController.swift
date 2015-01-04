@@ -33,7 +33,13 @@ class ViewController: UIViewController {
     //custom functions
     
     @IBAction func convertToDogAge(sender: UIButton) {
+        var dogYears = humanAgeInput.text.toInt()!
+        dogYears = dogYears * 7
         
+        dogYearsOutput.text = "\(dogYears)" + ", woof!"
+        if (dogYearsOutput.hidden == true) {
+        dogYearsOutput.hidden = false
+        }
     }
     
     @IBAction func changeDogesWords(sender: UIButton) {
