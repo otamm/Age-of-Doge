@@ -13,6 +13,9 @@
 		AA3CF0061A58C57B0071E999 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3CF0051A58C57B0071E999 /* Images.xcassets */; };
 		AA3CF0091A58C57B0071E999 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3CF0071A58C57B0071E999 /* LaunchScreen.xib */; };
 		AA3CF0151A58C57C0071E999 /* Age_of_DogeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CF0141A58C57C0071E999 /* Age_of_DogeTests.swift */; };
+		AA3CF02B1A58CB790071E999 /* stalindoge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA3CF02A1A58CB790071E999 /* stalindoge.jpg */; };
+		AA3CF02D1A58CB7F0071E999 /* cosmodoge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA3CF02C1A58CB7F0071E999 /* cosmodoge.jpg */; };
+		AA3CF02F1A58CB880071E999 /* putindoge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA3CF02E1A58CB880071E999 /* putindoge.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		AA3CF00E1A58C57C0071E999 /* Age of DogeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of DogeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3CF0131A58C57C0071E999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3CF0141A58C57C0071E999 /* Age_of_DogeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_DogeTests.swift; sourceTree = "<group>"; };
+		AA3CF02A1A58CB790071E999 /* stalindoge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stalindoge.jpg; sourceTree = "<group>"; };
+		AA3CF02C1A58CB7F0071E999 /* cosmodoge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cosmodoge.jpg; sourceTree = "<group>"; };
+		AA3CF02E1A58CB880071E999 /* putindoge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = putindoge.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		AA3CEFFC1A58C57B0071E999 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA3CF02E1A58CB880071E999 /* putindoge.jpg */,
+				AA3CF02C1A58CB7F0071E999 /* cosmodoge.jpg */,
+				AA3CF02A1A58CB790071E999 /* stalindoge.jpg */,
 				AA3CEFFD1A58C57B0071E999 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +203,10 @@
 			files = (
 				AA3CF0041A58C57B0071E999 /* Main.storyboard in Resources */,
 				AA3CF0091A58C57B0071E999 /* LaunchScreen.xib in Resources */,
+				AA3CF02D1A58CB7F0071E999 /* cosmodoge.jpg in Resources */,
 				AA3CF0061A58C57B0071E999 /* Images.xcassets in Resources */,
+				AA3CF02B1A58CB790071E999 /* stalindoge.jpg in Resources */,
+				AA3CF02F1A58CB880071E999 /* putindoge.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>481781D3-C130-4EC2-A13A-FCF714F84F52</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Age of Doge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0368DF90B26687400D26E8C9DA74561806FD86A3</key>
+		<string>https://github.com/otamm/Age-of-Doge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Age of Doge/Age of Doge.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0368DF90B26687400D26E8C9DA74561806FD86A3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/otamm/Age-of-Doge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0368DF90B26687400D26E8C9DA74561806FD86A3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0368DF90B26687400D26E8C9DA74561806FD86A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>age_of_doge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
