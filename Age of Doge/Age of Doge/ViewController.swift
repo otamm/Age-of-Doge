@@ -48,6 +48,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeDogesWords(sender: UIButton) {
+        comradeDogeWords.text = wordsOfWisdom[wordsEnumeration]
+        wordsEnumeration += 1
+        
+        if (wordsEnumeration == wordsOfWisdom.count) {
+            wordsEnumeration = 0
+        }
     }
     
 
