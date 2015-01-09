@@ -41,10 +41,22 @@ class ViewController: UIViewController {
     //custom functions
     
     @IBAction func convertToDogAge(sender: UIButton) {
-        var dogYears = humanAgeInput.text.toInt()!
-        dogYears = dogYears * 7
+        var humanYears = humanAgeInput.text.toInt()!
+        // dogYears = dogYears * 7, this is the dumb way to convert.
+        if humanYears <= 2 {
+            var dogYears = Double(humanYears) * 10.5
+            dogYearsOutput.text = "\(dogYears)" + ", woof! Young dawg!"
+        } else if humanYears > 2 {
+            var dogYears = (humanYears - 2) * 4 + 21 // 21 = 2 * 10.5, for the first two years. For the third year on, multiply each year bigger than 2 by 4 and then add to the total.
+            if dogYears < 60 {
+                dogYearsOutput.text = "\(dogYears)" + ", woof!Lucky you'ze dawg, else you work lol"
+            } else {
+                dogYearsOutput.text = "\(dogYears)" + ", woof! Oldie dawg!"
+            }
+        } else {
+            comradeDogeWords.text = "R U sure you've put a number fit for an age? Wow, such dumb! Woof!"
+        }
         
-        dogYearsOutput.text = "\(dogYears)" + ", woof!"
         if (dogYearsOutput.hidden == true) {
         dogYearsOutput.hidden = false
         }

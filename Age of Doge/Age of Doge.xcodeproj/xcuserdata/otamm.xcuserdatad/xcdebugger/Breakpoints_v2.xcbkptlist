@@ -10,13 +10,117 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Age of Doge/ViewController.swift"
-            timestampString = "442101308.915236"
+            timestampString = "442101804.475398"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Age_of_Doge.ViewController.changeDogeWords.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIButton&gt;"
+                  moduleName = "Age of Doge"
+                  urlString = "file:///Users/otamm/Documents/Courses/BitFountain/Swift/age_of_doge/Age%20of%20Doge/Age%20of%20Doge/ViewController.swift"
+                  timestampString = "442516586.541309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Age_of_Doge.ViewController.changeDogeWords.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIButton&gt;"
+                  moduleName = "Age of Doge"
+                  urlString = "file:///Users/otamm/Documents/Courses/BitFountain/Swift/age_of_doge/Age%20of%20Doge/Age%20of%20Doge/ViewController.swift"
+                  timestampString = "442516586.541556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Age_of_Doge.ViewController.init (Age_of_Doge.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Age_of_Doge.ViewController"
+                  moduleName = "Age of Doge"
+                  urlString = "file:///Users/otamm/Documents/Courses/BitFountain/Swift/age_of_doge/Age%20of%20Doge/Age%20of%20Doge/ViewController.swift"
+                  timestampString = "442516586.541817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "275">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Age_of_Doge.ViewController.init (Age_of_Doge.ViewController.Type)() -&gt; Age_of_Doge.ViewController"
+                  moduleName = "Age of Doge"
+                  urlString = "file:///Users/otamm/Documents/Courses/BitFountain/Swift/age_of_doge/Age%20of%20Doge/Age%20of%20Doge/ViewController.swift"
+                  timestampString = "442516586.54206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "237">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Age_of_Doge.ViewController.init (Age_of_Doge.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Age_of_Doge.ViewController"
+                  moduleName = "Age of Doge"
+                  urlString = "file:///Users/otamm/Documents/Courses/BitFountain/Swift/age_of_doge/Age%20of%20Doge/Age%20of%20Doge/ViewController.swift"
+                  timestampString = "442516586.542294"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "251">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Age of Doge/ViewController.swift"
+            timestampString = "442513878.465079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "convertToDogAge(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Age of Doge/ViewController.swift"
+            timestampString = "442513879.120409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "convertToDogAge(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
